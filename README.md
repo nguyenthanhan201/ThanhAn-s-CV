@@ -17,9 +17,9 @@
 ### Languages and Frameworks:
 
 <p>
-  <a href="https://github.com/tronghieu60s">
+  <!-- <a href="https://github.com/tronghieu60s">
     <img width="55%" align="right" alt="Onimur's github stats" src="https://github-readme-stats.vercel.app/api?username=tronghieu60s&show_icons=true&hide_border=true" />
-  </a>
+  </a> -->
   <code><img width="10%" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"></code>
   <code><img width="10%" src="https://www.vectorlogo.zone/logos/netlifyapp_watercss/netlifyapp_watercss-ar21.svg"></code>
   <code><img width="10%" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"></code>
