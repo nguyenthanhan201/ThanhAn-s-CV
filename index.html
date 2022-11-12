@@ -1,309 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Thành An's Resume</title>
     <meta charset="UTF-8" />
-    <meta name="description" content="My CV Online - Developer" />
-    <meta name="author" content="Tran Trong Hieu" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f4f5f7" />
-    <link rel="icon" href="./public/images/a.ico" />
-    <!-- Bootstrap CDN, Font Awesome -->
-    <link rel="stylesheet" href="./public/vendor/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./public/vendor/css/font-awesome.css" />
-    <!-- AOX CDN -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./public/css/style.css" />
-    <!-- odometer-theme-car CDN -->
-    <!-- <link rel="stylesheet" href="./public/css/odometer-theme-car.css" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nguyen Thanh An - Frontend Developer</title>
+    <link rel="icon" href="assets/images/a.ico" type="image/png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://github.hubspot.com/odometer/themes/odometer-theme-default.css"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/style.css" />
   </head>
 
-  <body>
-    <div class="wrapper container">
-      <section class="animation">
-        <h1 class="paper-plane">Hi 👋 I'm An Nguyen</h1>
-        <br />
-        <div class="scrollDown">
-          <p>scroll down to see more 👇</p>
-        </div>
-      </section>
-      <div class="row mt-0 mt-md-5 mb-4">
-        <div class="col-md-12">
-          <!-- author -->
-          <div class="author">
-            <div class="author__info">
-              <div class="d-flex" data-aos="fade-up">
-                <div class="author__detail">
-                  <h1 class="author__name">Nguyễn Thành An</h1>
-                  <p class="author__description">Frontend</p>
-                </div>
-                <a
-                  href="./public/source/An-Nguyen-Thanh-CV.pdf"
-                  target="_blank"
-                  class="mt-2 ml-5"
-                >
-                  <button
-                    type="button"
-                    class="btn btn-dark btn-sm"
-                    style="font-size: 0.8em"
-                  >
-                    <i class="fa fa-download" aria-hidden="true"></i> My CV
-                  </button>
-                </a>
-              </div>
-              <ul class="author__social">
-                <li>
-                  <a
-                    href="https://www.facebook.com/profile.php?id=100013086162803"
-                    target="_blank"
-                    ><i class="fa fa-facebook-square" aria-hidden="true"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/an-nguyen-thanh-2a151a202"
-                    target="_blank"
-                    ><i class="fa fa-linkedin-square" aria-hidden="true"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="mailto:fxannguyen201@gmail.com" target="_blank"
-                    ><i class="fa fa-envelope" aria-hidden="true"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://github.com/NguyenThanhAn201" target="_blank"
-                    ><i class="fa fa-github" aria-hidden="true"></i
-                  ></a>
-                </li>
-              </ul>
-              <div class="mt-5">
-                <h3 class="list__title">Summary</h3>
-                <div class="d-flex mr-3">
-                  <div class="author__description__left" data-aos="fade-right">
-                  <!-- Summary -->
-                  <div class="list">
-                    <div class="list__description">
-                      <div class="author__description">
-                        - I'm a <strong>Frontend Developer</strong>, I'm
-                        passionate about web development. I'm always looking for
-                        new challenges and opportunities to improve my skills.
-                      </div>
-                      <!-- <div>
-                        - I'm <strong class="">Nguyễn Thành An</strong>. I'm
-                        studying IT at Thu Duc College of Technology.
-                      </div> -->
-                      <div class="mt-1">
-                        - I&#39;m a hard-working person, eager to learn new
-                        things and willing to work in a team.
-                      </div>
+  <body class="align-item-center">
+    <!-- BOOK WRAP -->
+    <div class="book-wrap">
+      <div class="cover cover-left"></div>
 
-                      <div class="">
-                        <span>- I spends</span>
-                        <strong id="odometer" class="odometer"></strong>
-                        <span>hours to work in my major</span>
-                      </div>
-                    </div>
-                  </div>
+      <!-- BOOK -->
+      <div class="book">
+        <!-- page -->
+        <div class="book-page">
+          <div class="text-center">
+            <div
+              class="bg-img avt"
+              style="background-image: url(assets/images/user.jpg)"
+            ></div>
+            <br />
+            <h1 class="name">Nguyen Thanh An</h1>
+            <br />
+            <div class="social-list">
+              <a href="https://www.facebook.com/trananh2001" target="_blank">
+                <i class="bx bxl-facebook-square fb"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/an-nguyen-thanh-2a151a2023"
+                target="_blank"
+              >
+                <i class="bx bxl-linkedin-square linkedin"></i>
+              </a>
+              <a href="https://github.com/NguyenThanhAn201" target="_blank">
+                <i class="bx bxl-github git"></i>
+              </a>
+            </div>
+            <br />
+            <p class="introduce">
+              Hello, I'm <span class="txt-header">An</span>. I'm a
+              <span class="txt-header">Frontend Developer</span>, I'm passionate
+              about web development. I'm always looking for new challenges and
+              opportunities to improve my skills. I'm a hard-working person,
+              eager to learn new things and willing to work in a team.
+            </p>
+          </div>
+        </div>
+        <!-- end page -->
+        <!-- PAGE 5 -->
+        <div class="book-page page-right turn">
+          <!-- page 5 -->
+          <div class="page-front">
+            <div class="wrap-content">
+              <img
+                src="assets/images/ChatApp.png"
+                alt="image"
+                class="imgProject"
+              />
+              <a
+                href="#"
+                target="_blank"
+              >
+                <div class="ytb-btn">
+                  <i class="bx bx-link"></i>
+                  <h3>website</h3>
                 </div>
-                <div class="author__description__right" data-aos="fade-left">
-                  <img
-                    src="./public/images/user.jpg"
-                    alt="user.jpg"
-                    class="w-100"
-                  />
+              </a>
+              <br />
+              <h1>Website Chat Realtime</h1>
+              <br />
+              <p>
+                In this project, you can chat with your friends in real time.
+                You can also create a room to chat with your friends.
+                <br />
+                <span class="txt-header">Using:</span>
+                ReactJs, Socket.io, Harperdb
+              </p>
+              <br />
+            </div>
+          </div>
+        </div>
+        <!-- END PAGE 5 -->
+        <!-- PAGE 3 + 4 -->
+        <div class="book-page page-right turn" id="page-3">
+          <!-- page 3 -->
+          <div class="page-front">
+            <div class="wrap-content">
+              <img
+                src="assets/images/WebShop.png"
+                alt="image"
+                class="imgProject"
+              />
+              <a
+                href="https://nguyenthanhan201.github.io/react-ecommerce-web-shop/"
+                target="_blank"
+              >
+                <div class="ytb-btn">
+                  <i class="bx bx-link"></i>
+                  <h3>website</h3>
                 </div>
-                </div>
+              </a>
+              <br />
+              <h1>React Web Shop</h1>
+              <br />
+              <p>
+                In this project, The app makes everyone who visits the website
+                can buy anything they want and you can be a buyer. The app has
+                many features to discover so you can try it now.
+                <br />
+                <span class="txt-header">Using:</span>
+                ReactJs, React Router, React Hooks, Context API, CSS, HTML
+              </p>
+              <div class="page-change align-item-center" data-page="page-3">
+                Next <i class="bx bx-right-arrow-alt"></i>
               </div>
             </div>
           </div>
-          <!-- Technical Skills -->
-          <div class="technical-skillls list mt-4" data-aos="fade-up">
-            <h3 class="list__title">Technical Skills</h3>
-            <h6 class="list__skill" data-aos="fade-right">Web Development</h6>
-            <ul class="list__deskill" data-aos="fade-right">
-              <li>HTML, CSS/SCSS</li>
-              <li>Bootstrap CSS, Tailwind CSS</li>
-            </ul>
-            <h6 class="list__skill" data-aos="fade-right">
-              Programming Language
-            </h6>
-            <ul class="list__deskill" data-aos="fade-right">
-              <li>Javascript, Typescript</li>
-            </ul>
-            <h6 class="list__skill" data-aos="fade-right">
-              Frameworks & platforms
-            </h6>
-            <ul class="list__deskill" data-aos="fade-right">
-              <li>NodeJS</li>
-              <li>ReactJS, NextJS</li>
-              <li>Redux</li>
-            </ul>
-            <h6 class="list__skill" data-aos="fade-right">Database</h6>
-            <ul class="list__deskill" data-aos="fade-right">
-              <li>MongoDB</li>
-              <li>MySQL</li>
-              <li>Firebase</li>
-            </ul>
-          </div>
-          <!-- My Personal Project -->
-          <div class="projects list mt-4" data-aos="fade-up">
-            <h3 class="list__title">My Personal Project</h3>
-            <div>
-              <a href="https://www.90s.vn/" target="_blank">
-                <h6 class="list__skill" data-aos="zoom-in">
-                  Ecommerce Website
-                </h6>
+          <!-- page 4 -->
+          <div class="page-back">
+            <div class="wrap-content">
+              <img
+                src="assets/images/WebEcommerce.png"
+                alt="image"
+                class="imgProject"
+              />
+              <a href="https://90s.vn/" target="_blank">
+                <div class="ytb-btn">
+                  <i class="bx bx-link"></i>
+                  <h3>website</h3>
+                </div>
               </a>
-              <span class="list__date" data-aos="fade-right"
-                >February 2022</span
+              <br />
+              <h1>Website Ecommerce</h1>
+              <br />
+              <p>
+                In this project, The app makes everyone who visits the website
+                can buy anything they want and you can be a buyer. The app has
+                many features to discover so you can try it now.
+                <br />
+                <span class="txt-header">Using:</span>
+                NextJS, Typescript, SCSS, Tailwind , Apollo Client, MUI.
+              </p>
+              <div
+                class="page-change back align-item-center"
+                data-page="page-3"
               >
-              <ul class="list__deskill" data-aos="fade-right">
-                <li>
-                  The app makes everyone who visits the website can buy anything
-                  they want and you can be a buyer. The app has many features to
-                  discover so you can try it now.
-                </li>
-                <li>
-                  We using Nextjs Tailwindcss, MUI to create Front-end of
-                  website and we using Apollo Client to connect with Back-end
-                </li>
-                <li>
-                  Technology: Next JS, SCSS, Tailwind , Apollo Client, MUI.
-                </li>
-              </ul>
-            </div>
-            <div>
-              <a href="#">
-                <h6 class="list__skill" data-aos="zoom-in">
-                  Realtime Chat Websocket
-                </h6>
-              </a>
-              <span class="list__date" data-aos="fade-right">October 2022</span>
-              <ul class="list__deskill" data-aos="fade-right">
-                <li>
-                  The app makes everyone who visits the website can chat with
-                  anyone who is online and you can be a user. The app has many
-                  features to discover so you can try it now. (Not deploy yet)
-                </li>
-                <li>Technology: Reactjs, Socket.io, Harperdb.</li>
-              </ul>
-            </div>
-            <div>
-              <a
-                href="https://english-dictionary-ashen.vercel.app/"
-                target="_blank"
-              >
-                <h6 class="list__skill" data-aos="zoom-in">
-                  English Dictionary
-                </h6>
-              </a>
-              <span class="list__date" data-aos="fade-right">July 2022</span>
-              <ul class="list__deskill" data-aos="fade-right">
-                <li>
-                  The app learns english vocabulary with a friendly interface
-                  and diverse practice modes.
-                </li>
-                <li>Technology: Vite, Api.</li>
-              </ul>
-            </div>
-            <div>
-              <a
-                href="https://github.com/NguyenThanhAn201/react-entertainment-hub"
-                target="_blank"
-              >
-                <h6 class="list__skill" data-aos="zoom-in">
-                  Entertainment Hub
-                </h6>
-              </a>
-              <span class="list__date" data-aos="fade-right"
-                >September 2021</span
-              >
-              <ul class="list__deskill" data-aos="fade-right">
-                <li>
-                  Sometimes you may have confused when have to choose a movie.
-                  So this website will help you choose the right movie.
-                </li>
-                <li>Technology: ReactJS, Redux, Api.</li>
-              </ul>
+                <i class="bx bx-left-arrow-alt"></i> Back
+              </div>
             </div>
           </div>
-          <!-- <div class="list list--contact mt-4">
-                    <h3 class="list__title">Contact Me</h3>
-                    <form class="form-group contact" action="https://formspree.io/tronghieu60s@gmail.com" method="POST">
-                        <label>Name: </label>
-                        <input type="text" name="Name" class="form-control" aria-describedby="helpId" aria-label="helpId">
-                        <label class="mt-2 mb-1">Email: </label>
-                        <input type="email" name="Email" class="form-control" aria-describedby="helpId" aria-label="helpId">
-                        <label class="mt-2 mb-1">Content:</label>
-                        <textarea name="Content" class="form-control" aria-describedby="helpId"></textarea>
-                        <input class="btn btn-dark mt-2" type="submit" value="Send" aria-label="helpId">
-                    </form>
-                </div> -->
         </div>
+        <!-- END PAGE 3 + 4 -->
+        <!-- PAGE 1 + 2 -->
+        <div class="book-page page-right turn" id="page-1">
+          <!-- page 1 -->
+          <div class="page-front flex-top">
+            <div class="wrap-content">
+              <h1>Educations</h1>
+              <br />
+              <h3>
+                Thu Duc college of Technology
+                <span class="time">09/2019 - 2/2022</span>
+              </h3>
+              <p>Major: Information Technology</p>
+              <br /><br />
+              <h1>Work Experiences</h1>
+              <br />
+              <h3>
+                TNHH FBIGroup's Company
+                <span class="time">03/2022 - 11/2022</span>
+              </h3>
+              <p>Fresher front-end</p>
+              <br />
+              <h3>
+                Onicorn's Company
+                <span class="time">07/2021 - 09/2021</span>
+              </h3>
+              <p>Frontend developer intern</p>
+              <br />
+              <!-- turn page action -->
+              <div class="page-change align-item-center" data-page="page-1">
+                View my projects <i class="bx bx-right-arrow-alt"></i>
+              </div>
+            </div>
+          </div>
+          <!-- end page 1 -->
+          <!-- page 2 -->
+          <div class="page-back">
+            <div class="wrap-content">
+              <!-- <video width="100%" height="auto" controls>
+                <source src="assets/images/MealApp.png" type="image" />
+                Your browser does not support the video tag.
+              </video> -->
+              <img
+                src="assets/images/MealApp.png"
+                alt="image"
+                class="imgProject"
+              />
+              <a href="https://youtu.be/_A7diZfXMkc" target="_blank">
+                <div class="ytb-btn">
+                  <!-- <i class="bx bxl-youtube ytb"></i> -->
+                  <i class="bx bx-link"></i>
+                  <h3>website</h3>
+                </div>
+              </a>
+              <br />
+              <h1>Meal App</h1>
+              <br />
+              <p>
+                In this project, I will show you how to make any meal you want
+                to eat. You can search for any meal you want to eat and you can
+                also filter the meal by category. You can also see the details
+                of the meal and you can also see the ingredients of the meal.
+                <br />
+                <span class="txt-header">Using:</span>
+                ReactJs, React Router, Context API, CSS, HTML
+              </p>
+              <div
+                class="page-change back align-item-center"
+                data-page="page-1"
+              >
+                <i class="bx bx-left-arrow-alt"></i> Back
+              </div>
+            </div>
+          </div>
+          <!-- end page 2 -->
+        </div>
+        <!-- END PAGE 1 + 2 -->
       </div>
-      <!-- <div class="text-center" style="margin: 3.5em 2em; font-size: .95em;">
-            Copyright &copy; 2021 - All rights reserved. Theme custom by <a
-                href="https://github.com/tronghieu60s/neno-blog">Neno Blog</a>
-        </div> -->
+      <!-- END BOOK -->
+
+      <div class="cover right"></div>
     </div>
+    <!-- END BOOK WRAP -->
+
+    <script src="static/js/index.js"></script>
+
+    <!-- <div class="copyright" style="position: absolute; bottom: 50px; color: white;">
+        Copyright (c) 2020 <a href="https://www.youtube.com/channel/UCnNgtK4tGlWcceXVzoyTg8Q?sub_confirmation=1"
+            target="_blank">Tran Anh Tuat</a>
+    </div> -->
   </body>
-  <!-- odometer.min  -->
-  <!-- <script src="./public/js/odometer.min.js"></script> -->
-  <script src="https://github.hubspot.com/odometer/odometer.js"></script>
-  <!-- ScrollMagic CDN -->
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"
-    integrity="sha512-kDuUo39RGApdfHkM1WQL8Pg9BYtYGS5rD14AzePsD4SEaixw7v/ykAkLMdsSjuBCNFE6/FAP+WIHh6N6QZJl5w=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"
-    integrity="sha512-hFyYiBIWCYSyo98oFGWjG5V8HEV4g5O2pxu0mzU8qIMC7lrrwtcKWoRDZcpRL0ywIIM2d/XsBJ9iXNLFf6kIgw=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"
-    integrity="sha512-7nSmgdAZ7oPdT5aa2a4YauI8Y1xgaj6zZtQo9+EIEhpcNEiRHPAtyTKYckBQ0lmg1xQKrdWweHBcN/D0tdnvCw=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"
-    integrity="sha512-pvDW4tehKKsohH97164HwKwRGFpzayEFWTVbk8HuUoLIQ7Jp+WLN5XYokVuoCj2aT6dy8ihbW8SRTG1k0W4mSQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"
-    integrity="sha512-tSIDeirKC6suYILHqqPuZH3s0MvD4a5vCHXhBIcdmq4gQXZ2IB3fEYA5x2f3D2p/CbSqzKEvuTEVbS5VZ2u+ew=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"
-    integrity="sha512-ocsFo48WU8Xq6Y1Lwi7psXRAujG9E4TKNR4q1DbrKzaaxOMTEoao/a+mDoB+cYzY4lwbyxvqjkp/ZA1/MNlfsg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"
-    integrity="sha512-plyexAULVlTExvDn2yUZFJV9F8q+53MC/GpU9dEuNGXmrrI3J8Rcffjvxg3OOBALBvF+UILPLIBEoCeF2maqTQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
-  <!-- AOX CDN -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="./public/js/ScrollMagic.js"></script>
-  <script src="./public/js/AOX.js"></script>
-  <script src="./public/js/odometer.js"></script>
-  <!-- Tailwind CDN -->
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </html>
