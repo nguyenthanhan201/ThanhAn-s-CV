@@ -245,6 +245,7 @@ video {
   height: auto;
   max-height: 200px;
   object-fit: fill;
+  max-height: 180px;
 }
 
 .ytb-btn {
