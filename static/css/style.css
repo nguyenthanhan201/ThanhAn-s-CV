@@ -242,10 +242,9 @@ video {
   outline: transparent;
   border: none;
   width: 100%;
-  height: auto;
-  max-height: 200px;
-  object-fit: fill;
-  max-height: 180px;
+  height: 180px;
+  object-fit: contain;
+  background-color: #141c28;
 }
 
 .ytb-btn {
